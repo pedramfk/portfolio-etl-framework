@@ -1,0 +1,13 @@
+baseLayerConf:
+  path: ""
+  format: "avro"
+evolvedLayerConf:
+  path: ""
+  format: "avro"
+  partitioning:
+    - "a"
+    - "b"
+  streamConf:
+    format: "console"
+    outputMode: "append"
+    trigger: "5 seconds"

@@ -1,0 +1,13 @@
+baseLayerConf:
+  path: "/some/path/"
+  format: "csv"
+evolvedLayerConf:
+  path: "/some/path/"
+  format: "avro"
+  partitioning:
+    - "fieldA"
+    - "fieldB"
+  streamConf:
+    format: "console"
+    outputMode: "append"
+    trigger: "5 seconds"

@@ -1,0 +1,14 @@
+appName: "test"
+master: "local[*]"
+enableHiveSupport: false
+registerKryoClasses: false
+settings:
+  - key: "a"
+    value: "b"
+  - key: "c"
+    value: "d"
+  - key: "e"
+    value: "f"
+kryoClasses:
+  - "a.se"
+  - "b.se"
